@@ -2,8 +2,75 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 1280px;
+    height: 301px;
+}
+
 .page-icon {
     background-color: black;
     padding-bottom: 6em;
     padding-top: 1em;
+    padding-left: 1em;
+}
+
+.contact-details {
+    display: flex; 
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #969696;
+}
+
+.first-section {
+    padding: 2em;
+    background-color: white;
+    box-shadow: 2px 0px 10px rgb(48, 46, 46);
+    margin-bottom: 3.5em;
+}
+
+.Message {
+    display: block;
+    width: 400px;
+}
+
+.left-list {
+    margin-right: 3em;
+    
+}.message-area {
+    margin-top: 3em;
+    color: #969696;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #b6b5b5;
+    width: 25em;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid #b6b5b5;
+    width: 53em;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.btn-section {
+    font-weight: 300;
+    font-size: bold;
+    margin-top: 2em;
+    padding: 1em;
+    width: 8em;
+    border: 1px solid rgb(116, 112, 112);
+}
+
+.btn-section:hover {
+    cursor: pointer;
 }

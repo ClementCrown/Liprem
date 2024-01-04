@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-icon {
+    background-color: black;
+    padding-bottom: 6em;
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+.contact-details {
+    display: flex; 
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #969696;
+}
+
+.prompt {
+    margin-bottom: 3em;
+    margin-top: 1.3em;
+}
+
+.contact-title {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.first-section {
+    padding: 2em;
+    background-color: white;
+    box-shadow: 2px 0px 10px rgb(48, 46, 46);
+    margin-bottom: 3.5em;
+}
+
+.Message {
+    display: block;
+    width: 400px;
+}
+
+.left-list {
+    margin-right: 4em;
+    
+}.message-area {
+    margin-top: 3em;
+    color: #969696;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #b6b5b5;
+    width: 24em;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid #b6b5b5;
+    width: 52em;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.btn-section {
+    font-weight: 300;
+    font-size: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 8em;
+    border: 1px solid rgb(116, 112, 112);
+}
+
+.btn-section:hover {
+    cursor: pointer;
+}
+
+.second-section {
+    padding: 2em;
+    background-color: #FFA800;
+    font-size: 14px;
+    margin-bottom: 4em;
+    padding-right: 3em;
+    padding-left: 3em;
+}   
+
+.second-items {
+    width: 20em;
+}
+
+.contact {
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 150px;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.address {
+    line-height: 2em;
+    justify-content: center;
+}
+
+.discription {
+    margin-bottom: 2em;
+}
+
+span {
+    display: block;
+    margin-left: 24px;
+}
+
+i {
+    margin-right: 4px;
+    color: white;
+}
